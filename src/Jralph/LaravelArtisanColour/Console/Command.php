@@ -9,7 +9,7 @@ class Command extends IlluminateCommand {
     {
         $windows = Config::get('LaravelArtisanColour::windows');
         
-        if (!$colour || !$windows && strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+        if (!$colour || $this->option('no-ansi') || !$windows && strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
             parent::line($string);
             return;
         }
