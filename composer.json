@@ -1,6 +1,7 @@
 {
     "name": "jralph/laravel-artisan-colour",
     "description": "",
+    "license": "MIT",
     "authors": [
         {
             "name": "Joseph Ralph",
