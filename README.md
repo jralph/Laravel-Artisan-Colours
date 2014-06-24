@@ -14,7 +14,7 @@ Add the package to your `composer.json` file.
 ```
 "require": {
     ...
-    "jralph\laravel-artisan-colour": "1.*"
+    "jralph/laravel-artisan-colour": "1.*"
 }
 ```
 
